@@ -6,68 +6,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap&subset=latin-ext" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700|Raleway&display=swap&subset=latin-ext"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="sheet.css"></style>
+    <script src="https://kit.fontawesome.com/fd177759cf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sheet.css">
+    </style>
     <title>Jakub Solarz</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <a class="navbar-brand" href="#">Jakub Solarz</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">O mnie</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Projekty</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Kontakt</a>
-                </li>
-
-              </ul>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Jakub Solarz</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#about">O mnie</a>
+                        <a class="nav-item nav-link" href="#projects">Projekty</a>
+                        <a class="nav-item nav-link" href="#contact">Kontakt</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="about">
+                <img class="me" src="images/avatar.jpg" alt="To ja">
+                <h2>Cześć, jestem Kuba</h2>
+                <p>Front-End Developer</p>
             </div>
-          </nav>
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active " data-interval="1500">
-                  <img src="images/chata.jpg" class="d-block w-100" alt="Chatka w Dolinie Pięciu Stawów">
-              </div>
-              <div class="carousel-item" data-interval="1500">
-                <img src="images/dolina.jpg" class="d-block w-100" alt="Dolina Pięciu Stawów">
-              </div>
-              <div class="carousel-item" data-interval="1500">
-                <img src="images/mallorca.jpg" class="d-block w-100" alt="Górska droga na Majorce">
-              </div>
-              <div class="about">
-                    <img class="me" src="images/avatar.jpg" alt="To ja">
-                    <h2>Cześć, jestem Kuba</h2>
-                    <p>Front-End Developer</p>
+        </header>
+
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="boxes-title">
+                        <h3>O mnie</h3>
+                        <p>Moja przygoda z programowaniem zaczęła się w połowie 2019 roku. Od tego czasu 
+                            stale poszerzam swoją wiedzę poznając nowe technologie. Ukończyłem kurs "Front-End Developer"
+                            organizowany przez Akademię Kodu w Krakowie. Przede mną jeszcze długa droga, natomiast 
+                            czytanie dokumentacji nie sprawia mi trudności. Poniżej zamieszczam technologie, z którymi miałem 
+                            styczność, oraz chcę w ich kierunku rozwijać swoje umiejętności.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="mini-box">
+                            <div class="box-img">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4>HTML 5</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dicta veritatis sequi
+                                architecto cumque illum? Ex voluptatibus, ad id at consequatur autem! Eius
+                                reprehenderit, doloremque fuga magni quisquam nesciunt libero!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="mini-box">
+                            <div class="box-img">
+                                    <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h4>CSS 3</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dicta veritatis sequi
+                                architecto cumque illum? Ex voluptatibus, ad id at consequatur autem! Eius
+                                reprehenderit, doloremque fuga magni quisquam nesciunt libero!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="mini-box">
+                            <div class="box-img">
+                                    <i class="fab fa-sass"></i>
+                            </div>
+                            <h4>SASS/SCSS</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dicta veritatis sequi
+                                architecto cumque illum? Ex voluptatibus, ad id at consequatur autem! Eius
+                                reprehenderit, doloremque fuga magni quisquam nesciunt libero!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="mini-box">
+                            <div class="box-img">
+                                    <i class="fab fa-js-square"></i>
+                            </div>
+                            <h4>JavaScript</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dicta veritatis sequi
+                                architecto cumque illum? Ex voluptatibus, ad id at consequatur autem! Eius
+                                reprehenderit, doloremque fuga magni quisquam nesciunt libero!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="mini-box">
+                            <div class="box-img">
+                                    <i class="fab fa-react"></i>
+                            </div>
+                            <h4>React</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dicta veritatis sequi
+                                architecto cumque illum? Ex voluptatibus, ad id at consequatur autem! Eius
+                                reprehenderit, doloremque fuga magni quisquam nesciunt libero!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="mini-box">
+                            <div class="box-img">
+                                <img src="images/gatsby.png" alt="Gatsby.js icon">
+                            </div>
+                            <h4>Gatsby</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dicta veritatis sequi
+                                architecto cumque illum? Ex voluptatibus, ad id at consequatur autem! Eius
+                                reprehenderit, doloremque fuga magni quisquam nesciunt libero!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-          </div>
-    </header>
+        </section>
 
-    <section class="carousel">
-        
-    </section>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

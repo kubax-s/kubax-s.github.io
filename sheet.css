@@ -6,7 +6,7 @@
 
 body {
     background-color: #494949;
-    font-family: Poppins, sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 h1,
@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Lato, sans-serif
+    font-family: "Lato", sans-serif
 }
 
 p {
@@ -24,23 +24,15 @@ p {
 
 h2 {
     font-size: 40px;
-    font-weight: 300
 }
 
-.collapse {
-    display: flex;
-    align-content: right;
-    justify-content: end;
-}
-
-.carousel {
+header {
+    background-image: url(images/chata.jpg);
     height: 100vh;
-    width: 100%;
-    overflow:hidden;
-}
-
-.carousel-inner {
-    display: flex;
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .me {
@@ -49,21 +41,48 @@ h2 {
     border-radius: 50%;
 }
 
-.carousel-item {
-    opacity: 70%;
-    filter: brightness(40%);
-}
-
 .about {
-    align-self: center;
     margin: 0 auto;
     z-index: 100;
-    color: #f3f3f3;
+    color: #000000;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
 }
 
 .about.dropdown * {
     padding: 20px 10px;
+}
+
+.row {
+    text-align: center;
+    padding: 40px;
+}
+
+.fab {
+    font-size: 72px;
+}
+
+.fa-html5 {
+    color: #dd4b25;
+}
+
+.fa-css3-alt {
+    color: #3595cf;
+}
+
+.fa-sass {
+    color: #c66394;
+}
+
+.fa-js-square {
+    color: #efd81d;
+}
+
+.fa-react {
+    color: #5ed3f3;
 }
 
 @media (max-width:575px) {
@@ -71,17 +90,22 @@ h2 {
         width: 60px;
         height: 60px;
     }
+
     .about {
         align-self: center;
-        transform: translateY(40%);
+        transform: translateY(20%);
+        justify-content: center;
+        align-items: center;
     }
 
     p {
-        font-size: 16px
+        font-size: 16px;
+        color: #000;
     }
-    
+
     h2 {
         font-size: 32px;
+        color: #000;
     }
 }
 
@@ -90,17 +114,21 @@ h2 {
         width: 100px;
         height: 100px;
     }
+
     .about {
         align-self: center;
-        transform: translateY(20%);
+        justify-content: center;
+        align-items: center;
+        transform: translateY(10%);
     }
 
     p {
-        font-size: 12px
+        font-size: 20px;
+
     }
-    
+
     h2 {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
@@ -109,16 +137,21 @@ h2 {
         width: 200px;
         height: 200px;
     }
+
     .about {
+        display: inline-flex;
         align-self: center;
-        transform: translateY(0%);
+        text-align: left;
+        transform: translate(50%, 50%);
     }
 
     p {
-        font-size: 16px
+        font-size: 16px;
+        color: #fff;
     }
-    
+
     h2 {
         font-size: 40px;
+        color: #fff;
     }
 }

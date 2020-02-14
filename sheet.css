@@ -4,6 +4,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(209, 209, 209);
     font-family: "Raleway", sans-serif;
@@ -24,6 +28,14 @@ p {
 
 h2 {
     font-size: 40px;
+}
+
+.no-padd {
+    padding: 0
+}
+
+.intro {
+    padding: 70px 0
 }
 
 
@@ -59,7 +71,6 @@ header {
 
 .row {
     text-align: center;
-    padding: 20px;
 }
 
 .fab {
@@ -107,6 +118,10 @@ header {
     .about h2 {
         font-size: 32px;
         color: #000;
+    }
+
+    .flex-end {
+        flex-direction: column-reverse;
     }
 }
 
@@ -158,7 +173,6 @@ header {
 }
 
 .boxes-title {
-    padding-top: 40px;
     max-width: 80%;
     margin: auto;
 }
@@ -177,12 +191,30 @@ header {
     background-color: #663399;
     padding: 25px 45px;
     border-radius: 36px;
-    display: inline-block
+    display: inline-block;
+    color: #FFCA40;
+    transition: ease 1s;
 }
 
-.pr-btn,
 .pr-btn:hover {
-    color: #fff
+    color: #663399;
+    background-color: #FFCA40;
+    text-decoration: none;
+}
+
+.pr-btn-small {
+    background-color: #663399;
+    padding: 15px 30px;
+    border-radius: 36px;
+    display: inline-block;
+    color: #FFCA40;
+    transition: ease 1s;
+}
+
+.pr-btn-small:hover {
+    color: #663399;
+    background-color: #FFCA40;
+    text-decoration: none;
 }
 
 .bg-holder {
@@ -221,18 +253,48 @@ header {
     justify-content: center
 }
 
+.img-full {
+    width: 100%;
+    height: auto
+}
+
 .boxes .mini-box h4 {
     margin-top: 30px;
     margin-bottom: 18px
 }
 
+#contact {
+    background-color: #663399;
+    padding: 58px 0;
+    text-align: center;
+    color: #000000
+}
+
+.card {
+    background-color: #d1d1d1;
+    border-bottom: 0.25rem solid #FFCA40;
+    border-radius: 15px;
+}
+
+.card-body i {
+    font-size: 20px;
+    color: #663399;
+}
+
+.card-body h5 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #663399;
+}
+
+
 footer {
     background-color: #663399;
     padding: 58px 0;
     text-align: center;
-    color: #fff
+    color: #fff;
 }
 
 footer p {
-    font-size: 20px
+    font-size: 16px
 }

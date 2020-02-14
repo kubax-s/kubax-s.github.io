@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:700|Raleway&display=swap&subset=latin-ext"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/fd177759cf.js" crossorigin="anonymous"></script>
@@ -20,7 +21,7 @@
 <body>
     <header>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgb(209, 209, 209)">
                 <a class="navbar-brand" href="#">Jakub Solarz</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,84 +47,139 @@
                 <div class="row">
                     <div class="boxes-title">
                         <h3>O mnie</h3>
-                        <p>Moja przygoda z programowaniem zaczęła się w połowie 2019 roku. Od tego czasu 
-                            stale poszerzam swoją wiedzę poznając nowe technologie. Ukończyłem kurs "Front-End Developer"
-                            organizowany przez Akademię Kodu w Krakowie. Przede mną jeszcze długa droga, natomiast 
-                            czytanie dokumentacji nie sprawia mi trudności. Poniżej zamieszczam technologie, z którymi miałem 
-                            styczność, oraz chcę w ich kierunku rozwijać swoje umiejętności.
+                        <p>Moja przygoda z programowaniem zaczęła się w połowie 2019 roku. Od tego czasu
+                            stale poszerzam swoją wiedzę poznając nowe technologie. Ukończyłem kurs "Front-End
+                            Developer"
+                            organizowany przez Akademię Kodu w Krakowie. Przede mną jeszcze długa droga, natomiast
+                            czytanie dokumentacji nie sprawia mi trudności. Poniżej zamieszczam technologie oraz
+                            narzędzia, z którymi miałem
+                            styczność, oraz chcę przy ich użyciu rozwijać swoje umiejętności.
                         </p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-sm-6 col-md-4">
-                        <div class="mini-box">
+                        <div data-aos="zoom-in" class="mini-box">
                             <div class="box-img">
                                 <i class="fab fa-html5"></i>
                             </div>
                             <h4>HTML 5</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dicta veritatis sequi
-                                architecto cumque illum? Ex voluptatibus, ad id at consequatur autem! Eius
-                                reprehenderit, doloremque fuga magni quisquam nesciunt libero!</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
+                    <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4">
                         <div class="mini-box">
                             <div class="box-img">
-                                    <i class="fab fa-css3-alt"></i>
+                                <i class="fab fa-css3-alt"></i>
                             </div>
                             <h4>CSS 3</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dicta veritatis sequi
-                                architecto cumque illum? Ex voluptatibus, ad id at consequatur autem! Eius
-                                reprehenderit, doloremque fuga magni quisquam nesciunt libero!</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
+                    <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4">
                         <div class="mini-box">
                             <div class="box-img">
-                                    <i class="fab fa-sass"></i>
+                                <i class="fab fa-sass"></i>
                             </div>
                             <h4>SASS/SCSS</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dicta veritatis sequi
-                                architecto cumque illum? Ex voluptatibus, ad id at consequatur autem! Eius
-                                reprehenderit, doloremque fuga magni quisquam nesciunt libero!</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
+                    <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4">
                         <div class="mini-box">
                             <div class="box-img">
-                                    <i class="fab fa-js-square"></i>
+                                <i class="fab fa-js-square"></i>
                             </div>
                             <h4>JavaScript</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dicta veritatis sequi
-                                architecto cumque illum? Ex voluptatibus, ad id at consequatur autem! Eius
-                                reprehenderit, doloremque fuga magni quisquam nesciunt libero!</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
+                    <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4">
                         <div class="mini-box">
                             <div class="box-img">
-                                    <i class="fab fa-react"></i>
+                                <i class="fab fa-react"></i>
                             </div>
                             <h4>React</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dicta veritatis sequi
-                                architecto cumque illum? Ex voluptatibus, ad id at consequatur autem! Eius
-                                reprehenderit, doloremque fuga magni quisquam nesciunt libero!</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
+                    <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4">
                         <div class="mini-box">
                             <div class="box-img">
                                 <img src="images/gatsby.png" alt="Gatsby.js icon">
                             </div>
                             <h4>Gatsby</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dicta veritatis sequi
-                                architecto cumque illum? Ex voluptatibus, ad id at consequatur autem! Eius
-                                reprehenderit, doloremque fuga magni quisquam nesciunt libero!</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="bg-holder">
+            <div data-aos="zoom-in" class="bg-text">
+                <h3>Nie samym programowaniem żyje człowiek.</h3>
+                <p>Od lat pasjonuje się fotografią - nie byłbym sobą, gdybym
+                    przy tworzeniu tej strony nie użył własnych zdjęć.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="intro text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="boxes-title col-12">
+                        <h3>Projekty</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare.
+                            Phasellus
+                            tristique ullamcorper luctus. Nunc varius ullamcorper felis. Nulla nibh ipsum, rutrum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid">
+                <div data-aos="zoom-in" class="row">
+                    <div class="col-12 col-sm-6 box-tot">
+                        <div class="box-text">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare.
+                                Phasellus tristique ullamcorper luctus. </p>
+                            <a class="pr-btn" href="">zobacz projekt</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 no-padd minus-order">
+                        <img class="img-full" src="#" alt="">
+                    </div>
+                </div>
+                <div data-aos="zoom-in" class="row">
+                    <div class="col-12 col-sm-6 no-padd">
+                        <img class="img-full" src="#" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 box-tot">
+                        <div class="box-text">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare.
+                                Phasellus tristique ullamcorper luctus. </p>
+                            <a class="pr-btn" href="">zobacz projekt</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div data-aos="zoom-in" class="row">
+                    <div class="col-12 col-sm-6 box-tot">
+                        <div class="box-text">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare.
+                                Phasellus tristique ullamcorper luctus. </p>
+                            <a class="pr-btn" href="">zobacz projekt</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 no-padd">
+                        <img class="img-full " src="#" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <p>Copyright 2020. All Rights Reserved.</p>
+        </footer>
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -133,6 +189,10 @@
         </script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
         </script>
 </body>
 

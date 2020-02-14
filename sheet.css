@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #494949;
+    background-color: rgb(209, 209, 209);
     font-family: "Raleway", sans-serif;
 }
 
@@ -25,6 +25,7 @@ p {
 h2 {
     font-size: 40px;
 }
+
 
 header {
     background-image: url(images/chata.jpg);
@@ -58,7 +59,7 @@ header {
 
 .row {
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 .fab {
@@ -93,17 +94,17 @@ header {
 
     .about {
         align-self: center;
-        transform: translateY(20%);
+        transform: translateY(50%);
         justify-content: center;
         align-items: center;
     }
 
-    p {
+    .about p {
         font-size: 16px;
         color: #000;
     }
 
-    h2 {
+    .about h2 {
         font-size: 32px;
         color: #000;
     }
@@ -119,15 +120,15 @@ header {
         align-self: center;
         justify-content: center;
         align-items: center;
-        transform: translateY(10%);
+        transform: translateY(30%);
     }
 
-    p {
+    .about p {
         font-size: 20px;
 
     }
 
-    h2 {
+    .about h2 {
         font-size: 40px;
     }
 }
@@ -142,16 +143,96 @@ header {
         display: inline-flex;
         align-self: center;
         text-align: left;
-        transform: translate(50%, 50%);
+        transform: translate(50%, 80%);
     }
 
-    p {
+    .about p {
         font-size: 16px;
         color: #fff;
     }
 
-    h2 {
+    .about h2 {
         font-size: 40px;
         color: #fff;
     }
+}
+
+.boxes-title {
+    padding-top: 40px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.box-tot {
+    align-content: space-between;
+    display: flex;
+    align-items: center
+}
+
+.box-tot .box-text {
+    padding: 20px 40px
+}
+
+.pr-btn {
+    background-color: #663399;
+    padding: 25px 45px;
+    border-radius: 36px;
+    display: inline-block
+}
+
+.pr-btn,
+.pr-btn:hover {
+    color: #fff
+}
+
+.bg-holder {
+    background-image: url(images/dolina.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-attachment: fixed;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.bg-holder .bg-text {
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    color: #fff;
+}
+
+.mini-box {
+    text-align: center;
+    padding: 40px;
+    margin-top: 25px
+}
+
+.boxes .mini-box .box-img {
+    background-color: #663399;
+    border-radius: 50%;
+    height: 88px;
+    width: 88px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.boxes .mini-box h4 {
+    margin-top: 30px;
+    margin-bottom: 18px
+}
+
+footer {
+    background-color: #663399;
+    padding: 58px 0;
+    text-align: center;
+    color: #fff
+}
+
+footer p {
+    font-size: 20px
 }

@@ -123,6 +123,11 @@ header {
     .flex-end {
         flex-direction: column-reverse;
     }
+
+    .box-text {
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
 }
 
 @media (min-width: 575px) {

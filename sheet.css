@@ -204,7 +204,7 @@ header {
 
 .pr-btn-small {
     background-color: #663399;
-    padding: 15px 30px;
+    padding: 12px 20px;
     border-radius: 36px;
     display: inline-block;
     color: #FFCA40;
@@ -265,7 +265,7 @@ header {
 
 #contact {
     background-color: #663399;
-    padding: 58px 0;
+    padding-top: 58px;
     text-align: center;
     color: #000000
 }
@@ -287,10 +287,13 @@ header {
     border-bottom: 4px solid #663399;
 }
 
+.card-container {
+    margin-bottom: 58px;
+}
 
 footer {
     background-color: #663399;
-    padding: 58px 0;
+    padding-bottom: 58px;
     text-align: center;
     color: #fff;
 }
